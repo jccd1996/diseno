@@ -1,5 +1,4 @@
-import 'package:diseno/pages/header_page.dart';
-import 'package:diseno/pages/manolo.dart';
+import 'package:diseno/pages/pinterest_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Diseños app',
-      home: ManoloPage(),
+      home: PinterestPage(),
     );
   }
 }
